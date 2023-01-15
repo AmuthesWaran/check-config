@@ -1,0 +1,92 @@
+Git init
+
+git status
+
+git remote add origin <remote repo url>
+
+git add <"file_name">
+
+git add .
+
+git rm --cached <file>
+
+git commit -m "comment"
+
+git push -u origin master
+
+git reset <commit id>
+
+To see all the commits with commit id along with commit message
+git log
+
+ls
+ls -a
+
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+=============================================================================================
+
+To change the directory
+
+Returns the current directory
+cd
+
+change the current directory
+cd /D E:Temp
+
+to delete a file
+del text1.txt
+
+to delete a folder
+RD /S F:\newfolder\Doc
+
+
+to create a folder
+mkdir <folder name>
+
+dir
+
+to create a file 
+fsutil file createnew f:\newfolder\text4.txt 0
+
+echo file created text5.txt
+=============================================================================================
+
+git clone <git project link>
+git pull <git project link>
+
+
+git branch
+git checkout master
+git branch
+git branch <branch name to add>
+git branch -d <branch name>
+git log master..<branch name>
+git merge <branch name>
+
+// delete branch locally
+git branch -d <branch name>
+
+// delete branch remotely
+git push origin --delete <branch name>
+
+
+// To see log messages of a specific branch:
+git log master..branchname
+
+
