@@ -1,6 +1,6 @@
 Git global setup
-git config --global user.name "Amutheswaran"
-git config --global user.email "amutheswaran@outlook.com"
+git config --global user.name "username-goes-here"
+git config --global user.email "email-id-goes-here"
 
 
 
