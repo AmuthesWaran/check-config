@@ -3,8 +3,6 @@ git config --global user.name "username-goes-here"
 git config --global user.email "email-id-goes-here"
 
 
-
-
 …or create a new repository on the command line
 
 echo "# check-config" >> README.md
@@ -14,8 +12,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:AmuthesWaran/check-config.git
 git push -u origin main
-
-
 
 
 …or push an existing repository from the command line
